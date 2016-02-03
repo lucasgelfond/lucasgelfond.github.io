@@ -3,9 +3,14 @@ h1 {
   font-weight: light;
 }
 
+.top {
+  background-image: url('http://lucasgelfond.github.io/cover.png ');
+  width = 800;
+  height = 600;
+}
+
 .emphasis {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-
 }
