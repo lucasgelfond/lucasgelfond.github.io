@@ -16,9 +16,9 @@
 }
 
 .top {
-  position: fixed;
   font-family: NimbusSansL, sans-serif;
   color: white;
+  font-size: 40px;
   display:inline;
 }
 
