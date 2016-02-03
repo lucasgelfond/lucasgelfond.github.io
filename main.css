@@ -15,12 +15,18 @@
 
 }
 
+header {
+  display: block;
+}
+
+
 .top {
+  position: relative;
   font-family: NimbusSansL, sans-serif;
   color: white;
-  font-size: 40px;
-  display:inline;
+  font-size: 20px;
 }
+
 
 .light {
   font-weight: normal;
