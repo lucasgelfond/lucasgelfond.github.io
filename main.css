@@ -1,5 +1,7 @@
 html {
-  background-image: url('cover.png'), height = 400, width = 600;
+  background-image: url('cover.png')
+  height: 400;
+  width: 600;
 }
 
 h1 {
