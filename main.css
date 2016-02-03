@@ -1,13 +1,14 @@
 /*
 Took this part of the code from http://sixrevisions.com/css/responsive-background-image/
 */
-body {
-  background-image: url(cover.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: #000000;
-  background-size: cover;
+#cover {
+  position: fixed;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
 }
 
 
