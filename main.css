@@ -24,9 +24,12 @@ header {
   position: relative;
   font-family: NimbusSansL, sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 3.5vw;
+  line-height: 90%;
 }
 
+.line1 {
+}
 
 .light {
   font-weight: normal;
