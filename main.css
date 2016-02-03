@@ -1,0 +1,11 @@
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-weight: light;
+}
+
+.emphasis {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
