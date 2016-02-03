@@ -1,5 +1,5 @@
 html {
-  background-image: image(cover.png);
+  background-image: url(cover.png);
 }
 
 h1 {
