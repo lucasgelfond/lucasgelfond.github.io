@@ -1,21 +1,24 @@
+html {
+  background-image: image(cover.png);
+}
+
 h1 {
   font-family: Helvetica, sans-serif;
   font-weight: light;
 }
 
 .top {
-  background-image: url('cover.png ');
   width = 800;
   height = 600;
 }
 
-.top {
+.name {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.dostuff {
+.doit {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
