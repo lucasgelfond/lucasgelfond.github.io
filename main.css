@@ -1,10 +1,20 @@
-html {
-  background: url(cover.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+/*
+Used the code between the next two comments from elsewhere.
+Used https://css-tricks.com/perfect-full-page-background-image/.
+*/
+#cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
+/////////
+
+
 
 h1 {
   font-family: Helvetica, sans-serif;
