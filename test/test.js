@@ -1,8 +1,11 @@
-$(function(){
-    $('.fadein img:gt(0)').hide();
-    setInterval(function(){
-      $('.fadein :first-child').fadeOut()
-         .next('img').fadeIn()
-         .end().appendTo('.fadein');},
-      3000);
+jQuery('#simple_slider').jbhSlider({
+    transition: {
+        type: 'horizontal-left',
+        duration: 500,
+        timer: 5000,
+        repeat: 3
+    },
+    pagination: {
+        type: 'bullets'
+    }
 });
