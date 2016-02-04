@@ -64,31 +64,3 @@ header {
   font-weight: bold;
   text-transform: uppercase;
 }
-
-.slider {
-  height: 3.5h;
-  display: inline;
-  line-height: 110%;
-  overflow: auto;
-  background-color: grey;
-}
-
-.slider div, .slider div p {
-  margin: 0;
-  padding: 0;
-}
-
-.slider div {
-  animation-name: slide;
-  animation-duration: 10s;
-  animation-timing-function: 500ms;
-  animation-iteration-count: infinite;
-}
-
-@keyframes slide {
-  0% { margin-top: 0; }
-  25% { margin-top: ((-3.5/4)*1)wh; }
-  50% { margin-top:((-3.5/4)*2)wh; }
-  75% { margin-top: ((-3.5/4)*3)wh; }
-  100% { margin-top: 0; }
-}
