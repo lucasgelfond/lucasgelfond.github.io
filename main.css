@@ -1,18 +1,35 @@
+@font-face {
+    font-family: NimbusSansL;
+    src: url("nimbus-sans-l_regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: NimbusSansL;
+    src: url("nimbus-sans-l_bold.ttf");
+    font-weight: bold;
+}
 
-#cover {
-  /* Set rules to fill background */
-    min-height: 100%;
-    min-width: 600px;
+body {
+  /* Location of the image */
+  background-image: url(cover.png);
 
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: top center;
 
-    /* Set up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
 
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
 }
 
 a:link {
@@ -21,6 +38,10 @@ a:link {
 }
 a:hover {
   text-decoration: underline;
+}
+
+a:visited {
+  color: white;
 }
 
 header {
