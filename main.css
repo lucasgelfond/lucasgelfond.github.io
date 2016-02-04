@@ -15,10 +15,17 @@
 
 }
 
+a:link {
+  color:white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 header {
   display: block;
 }
-
 
 .top {
   position: relative;
@@ -26,9 +33,6 @@ header {
   color: white;
   font-size: 3.5vw;
   line-height: 90%;
-}
-
-.line1 {
 }
 
 .light {
