@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 /*
   Nimbus Sans L is from https://fontlibrary.org/en/font/nimbus-sans-l
   Nimbus Sans L is licensed under the GPL
 */
 
-=======
->>>>>>> origin/master
 @font-face {
     font-family: NimbusSansL;
     src: url("nimbus-sans-l_regular.ttf");
@@ -20,7 +17,6 @@
 <<<<<<< HEAD
 
 #cover {
-  /* This code was taken from https://css-tricks.com/perfect-full-page-background-image/; */
     min-height: 100%;
     min-width: 600px;
     width: 100%;
@@ -28,41 +24,19 @@
     position: fixed;
     top: 0vw;
     left: 0;
-=======
-body {
-  /* Location of the image */
-  background-image: url(cover.png);
-
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: top center;
-
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-
-  /* Background image is fixed in the viewport so that it doesn't move when
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
-
-  /* Set a background color that will be displayed
-     while the background image is loading */
-  background-color: #464646;
-}
+  }
 
 a:link {
   color:white;
   text-decoration: none;
 }
 a:hover {
+  color:white;
   text-decoration: underline;
 }
 
 a:visited {
   color: white;
->>>>>>> origin/master
 }
 
 header {
@@ -87,7 +61,6 @@ header {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 #photocred {
   font-family: "Open Sans";
   font-weight: light;
@@ -97,17 +70,3 @@ header {
   bottom: -1vw;
   right: 1vw;
 }
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover{
-  text-decoration: underline;
-}
-=======
-/*
-Test
-*/
->>>>>>> origin/master
