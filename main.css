@@ -1,18 +1,29 @@
+/*
+  Nimbus Sans L is from https://fontlibrary.org/en/font/nimbus-sans-l
+  Nimbus Sans L is licensed under the GPL
+*/
+
+@font-face {
+    font-family: NimbusSansL;
+    src: url("nimbus-sans-l_regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: NimbusSansL;
+    src: url("nimbus-sans-l_bold.ttf");
+    font-weight: bold;
+}
+
 
 #cover {
-  /* Set rules to fill background */
+  /* This code was taken from https://css-tricks.com/perfect-full-page-background-image/; */
     min-height: 100%;
     min-width: 600px;
-
-    /* Set up proportionate scaling */
     width: 100%;
     height: auto;
-
-    /* Set up positioning */
     position: fixed;
-    top: 0;
+    top: 0vw;
     left: 0;
-
 }
 
 header {
@@ -21,14 +32,12 @@ header {
 
 
 .top {
-  position: relative;
+  position: fixed;
+  top = 0;
   font-family: NimbusSansL, sans-serif;
   color: white;
   font-size: 3.5vw;
   line-height: 90%;
-}
-
-.line1 {
 }
 
 .light {
@@ -38,4 +47,23 @@ header {
 .important {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+#photocred {
+  font-family: "Open Sans";
+  font-weight: light;
+  font-size: 1vw;
+  color: #ffffff;
+  position: fixed;
+  bottom: -1vw;
+  right: 1vw;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }
