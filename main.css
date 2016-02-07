@@ -70,12 +70,39 @@ a:visited {
   right: 1vw;
 }
 
+/* will add back in later
+
 #linkline {
-  position: absolute;
-  bottom: 10vh;
+  margin-left: auto;
+  margin-right:auto;
+  position:relative;
+  top: 45vw;
   font-family: NimbusSansL;
   font-weight: light;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 3vw;
+}
+
+#linkline a {
+  text-decoration: underline;
+}
+
+#linkline a:hover {
+  text-decoration: none;
+}
+*/
+
+
+#icons {
+  position: fixed;
+  bottom:0vw;
+  align-items: center;
+  display: inline;
+  color: #ffffff;
+  font-size: 3.5vw;
+}
+#icons a:hover {
+  text-decoration: none;
+  color: #b5b5b5;
 }
