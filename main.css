@@ -15,6 +15,7 @@
 }
 
 
+
 #cover {
     min-height: 100%;
     min-width: 600px;
@@ -69,8 +70,7 @@ a:visited {
   bottom: -1vw;
   right: 1vw;
 }
-
-/* will add back in later
+/**
 
 #linkline {
   margin-left: auto;
@@ -91,18 +91,28 @@ a:visited {
 #linkline a:hover {
   text-decoration: none;
 }
+
 */
 
 
 #icons {
+  background-color: #000000;
+  padding: 0.5vw;
   position: fixed;
-  bottom:0vw;
+  bottom: -1vw;
   align-items: center;
   display: inline;
   color: #ffffff;
-  font-size: 3.5vw;
+  font-size: 4.5vw;
 }
 #icons a:hover {
   text-decoration: none;
   color: #b5b5b5;
+}
+
+#doit {
+  background-color:#ff0000;
+  padding: 0.25vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
