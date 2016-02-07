@@ -39,13 +39,27 @@ a:visited {
   color: white;
 }
 
+
+#doit {
+  background-color:#ff0000;
+  padding: 0.25vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  text-decoration: underline;
+}
+
+#doit a:hover {
+  text-decoration: none;
+}
+
+
 .top {
   position: fixed;
   top: -2vw;
   font-family: NimbusSansL, sans-serif;
   color: white;
   font-size: 3.5vw;
-  line-height: 90%;
+  line-height: 110%;
 }
 
 .line2 {
@@ -93,8 +107,6 @@ a:visited {
 }
 
 */
-
-
 #icons {
   background-color: #000000;
   padding: 0.5vw;
@@ -108,11 +120,4 @@ a:visited {
 #icons a:hover {
   text-decoration: none;
   color: #b5b5b5;
-}
-
-#doit {
-  background-color:#ff0000;
-  padding: 0.25vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
 }
