@@ -14,7 +14,6 @@
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 
 #cover {
     min-height: 100%;
@@ -39,10 +38,6 @@ a:visited {
   color: white;
 }
 
-header {
-  display: block;
-}
-
 .top {
   position: fixed;
   top = 0;
@@ -50,6 +45,10 @@ header {
   color: white;
   font-size: 3.5vw;
   line-height: 90%;
+}
+
+.line2 {
+  display:inline;
 }
 
 .light {
