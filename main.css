@@ -1,0 +1,37 @@
+
+
+.nav-item {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #151F6D;
+}
+
+.header-intro {
+    text-align: left;
+}
+
+#intro {
+    background-color: white;
+    color: black;
+}
+
+#hi-line {
+    font-size: 20px;
+    color: #004EA8;
+}
+
+.header {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.intro-links {
+    color: #004EA8;
+}
+
+.intro-links:hover {
+    text-decoration-color: black;
+    color: black;
+}
