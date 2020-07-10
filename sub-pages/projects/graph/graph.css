@@ -1,0 +1,88 @@
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.navbar-brand {
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#project-label {
+    font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#project-subhead {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#project-description {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.feature-name {
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+
+}
+.feature-detail {
+    color:black;
+    text-align: left;
+    font-weight: 200;
+        font-family: 'Open Sans', sans-serif;
+
+}
+
+/* code for carousel controls from here https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel */
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+
+.carousel-indicators {
+    visibility: hidden;
+}
+
+.carousel-control {
+    position: relative;
+}
+
+/* code for text going below carousel here https://stackoverflow.com/questions/55921435/how-to-make-carousel-caption-appear-on-top 
+*/
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel-item .carousel-caption {
+  position: static;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+

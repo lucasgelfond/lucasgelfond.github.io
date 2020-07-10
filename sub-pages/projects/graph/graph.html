@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--My CSS -->
+      
+      <link rel = "stylesheet" href="graph.css">
+    
+      
+    <!--Fonts -->
+      
+ <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald&family=Raleway&family=Roboto&display=swap" rel="stylesheet">       
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      
+
+    <title>Lucas Gelfond 😎</title>
+  </head>
+  <body id = "page-top">
+      
+      <nav class = "navbar navbar-expand-lg navbar-light fixed-top mx-auto" id = "main-nav">
+                   <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarResponsive" aria-expanded = "false" aria-label = "Toggle navigation">
+            <span class = "navbar-toggler-icon"></span>
+            </button>
+                 <a class = "navbar-brand js-scroll-trigger" href = "../../../index.html">Lucas Gelfond</a>
+            <div class = "collapse navbar-collapse" id = "navbarResponsive">
+                <ul class = "navbar-nav ml-auto">
+                <li class = "nav-item">
+                    <a class = "nav-link js-scroll-trigger" href = "../../../projects.html">Projects</a>
+                    </li>
+                <li class = "nav-item">
+                    <a class = "nav-link js-scroll-trigger" href = "#contact">Contact</a>
+                    </li>
+                </ul>     
+          </div>
+      </nav>
+      
+      <header class = "text-black mx-auto">
+      </header>
+      <div class = "container">
+            <div class = "row">
+              <div class = "col-lg-8 col-md-8 col-sm-8 col-8 mx-auto">
+              <br><br><br><br><br>
+                  <h1 id ="project-label">Graph</h1>
+                  <h2 id= "project-subhead">Made for CSCI 0160: Introduction to Algorithms and Data Structures (Spring 2020)</h2>
+                  <p id = "project-description">
+                  In this project we modeled the graph data structure with an adjacency matrix (a 2D array), added most basic functionality, and built a modified version of <a href = "https://en.wikipedia.org/wiki/PageRank">Google's PageRank algorithm</a>. The program functions for both directed and undirected graphs. Below are demonstrations of some of the features I implemented:
+                  </p>
+                  </div>
+              </div>
+          <div class = "row"></div>
+        <div class = "row">
+          <div class = "col-md-8 col-lg-8 col-sm-8 mx-auto">
+              <br>
+              <div id="graph-features" class ="carousel slide" data-interval = "12000" data-ride = "carousel">
+                  
+                  <!-- no indicators for now 
+                  <ol class = "carousel-indicators">
+                    <li data-target="#sketchy-features" data-slide-to="0" class = "active carousel-indicator"></li>
+                      <li data-target = "#sketchy-features" data-slide-to="1" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="2" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="3" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="4" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="5" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="6" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="7" class = "carousel-indicator"></li>
+                  </ol>
+                -->
+              <div class = "carousel-inner">
+                  <div class = "carousel-item active">
+                    <img class = "d-block carousel-image" src = "assets/pagerank.gif" alt = "GIF of vertices growing as a result of running the PageRank algorithm.">
+                      <div class = "carousel-caption">
+                      <h5 class = "feature-name">PageRank</h5>
+                          <p class = "feature-detail">
+                          In a directed graph, the PageRank algorithm ranks pages by their importance. This is calculated by using the "Rank" of all of the pages that point to it.
+                          </p>
+                      </div>
+                  </div>
+                  
+                  <div class = "carousel-item">
+                    <img class = "d-block carousel-image" src = "assets/incoming-edges.gif" alt = "GIF a graph with one vertex and three incoming edges, and graph returning all three edges when selecting the 'incoming edges' function.">
+                      <div class = "carousel-caption">
+                      <h5 class = "feature-name">
+                          Incoming Edges
+                          </h5>
+                          <p class = "feature-detail">
+                          By clicking on any vertex, Graph can use the adjacency matrix it is built on to return a list of all of the edges pointing to said vertex.
+                          </p>
+                      </div>
+                  </div>
+                  
+                  <div class = "carousel-item">
+                  <img class = "d-block carousel-image" src = "assets/are-adjacent.gif" alt = "GIF demonstrating Graph's ability to determine whether two vertices are connected by an edge.">
+                      <div class = "carousel-caption">
+                        <h5 class = "feature-name">
+                            Are Adjacent
+                          </h5>
+                          <p class = "feature-detail">
+                              By selecting any two vertices, Graph will search through its underlying adjacency matrix and return true if an edge connects them.
+                          </p>
+                      </div>
+                  </div>
+                  
+                 <div class = "carousel-item">
+                      <img class = "d-block carousel-image" src = "assets/connecting-edge.gif" alt = "GIF demonstrating Graph finding the edge connecting two vertices.">
+                          <div class = "carousel-caption">
+                            <h5 class = "feature-name">
+                                Connecting Edge
+                              </h5>
+                              <p class = "feature-detail">
+                                 After selecting two vertices, instead of just determining whether or not an edge exists, Graph can return the weight of that edge. 
+                              </p>
+                          </div>
+                      </div>
+                  
+                <div class = "carousel-item">
+                      <img class = "d-block carousel-image" src = "assets/end-vertices.gif" alt = "GIF of clicking on an edge and Graph returning the two vertices of that edge.">
+                          <div class = "carousel-caption">
+                            <h5 class = "feature-name">
+                                End Vertices
+                              </h5>
+                              <p class = "feature-detail">
+                                  By clicking on an edge, Graph can return the two vertices that are associated with said edge. 
+                              </p>
+                          </div>
+                      </div>
+                  
+                <div class = "carousel-item">
+                      <img class = "d-block carousel-image" src = "assets/opposite.gif" alt = "GIF of selecting an edge and vertex and having Graph return the vertex on the other end..">
+                          <div class = "carousel-caption">
+                            <h5 class = "feature-name">
+                                Opposite
+                              </h5>
+                              <p class = "feature-detail">
+                                  Upon selecting an edge and an associated vertex, Graph will return the vertex opposite that edge.
+                              </p>
+                          </div>
+                      </div>
+                  
+                    <div class = "carousel-item">
+                      <img class = "d-block carousel-image" src = "assets/vertices-edges.gif" alt = "GIF of Graph returning a list of all of its edges, then all of its vertices.">
+                          <div class = "carousel-caption">
+                            <h5 class = "feature-name">
+                                Vertices/Edges
+                              </h5>
+                              <p class = "feature-detail">
+                                  Graph can use its underlying adjacency matrix to return lists of all of its vertices and all of its edges (which are double for undirected graphs).
+                              </p>
+                          </div>
+                      </div>
+                  
+                
+                  
+                  
+                  <a class = "carousel-control-prev carousel-button" href = "#graph-features" role = "button" data-slide = "prev">
+                      <span class = "carousel-control-prev-icon carousel-control" aria-hidden = "true"></span>
+                      <span class = "sr-only">previous</span>
+                  </a>
+                  <a class = "carousel-control-next" href = "#graph-features" role = "button" data-slide = "next">
+                      <span class = "carousel-control-next-icon" aria-hidden = "true"></span>
+                      <span class = "sr-only">next</span>
+                  </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <footer></footer>
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
