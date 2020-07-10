@@ -9,3 +9,13 @@
     font-weight: 400;
     font-size: 14px;
 }
+
+.card-img-top {
+    width: 286px;
+    height: 180px;
+    object-fit: cover;
+}
+
+#tetris-image {
+    object-position: 0 -400px;
+}
