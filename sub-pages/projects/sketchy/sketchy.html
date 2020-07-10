@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--My CSS -->
+      
+      <link rel = "stylesheet" href="sketchy.css">
+    
+      
+    <!--Fonts -->
+      
+ <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald&family=Raleway&family=Roboto&display=swap" rel="stylesheet">       
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      
+
+    <title>Lucas Gelfond 😎</title>
+  </head>
+  <body id = "page-top">
+      
+      <nav class = "navbar navbar-expand-lg navbar-light fixed-top mx-auto" id = "main-nav">
+                   <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarResponsive" aria-expanded = "false" aria-label = "Toggle navigation">
+            <span class = "navbar-toggler-icon"></span>
+            </button>
+                 <a class = "navbar-brand js-scroll-trigger" href = "#page-top">Lucas Gelfond</a>
+            <div class = "collapse navbar-collapse" id = "navbarResponsive">
+                <ul class = "navbar-nav ml-auto">
+                <li class = "nav-item">
+                    <a class = "nav-link js-scroll-trigger" href = "/projects.html">Projects</a>
+                    </li>
+                <li class = "nav-item">
+                    <a class = "nav-link js-scroll-trigger" href = "#contact">Contact</a>
+                    </li>
+                </ul>     
+          </div>
+      </nav>
+      
+      <header class = "text-black mx-auto">
+      </header>
+      <div class = "container">
+            <div class = "row">
+              <div class = "col-lg-8 col-md-8 col-sm-8 mx-auto">
+              <br><br><br><br><br>
+                  <h1 id ="project-label">Sketchy</h1>
+                  <h2 id= "project-subhead">Made for CSCI 0150: Introduction to Object-Oriented Programming and Computer Science (Fall 2019)</h2>
+                  <p id = "project-description">
+                  This was my final project for my first CS class at Brown and my longest yet; 23 classes and 1,865 lines of code. Our assignment was to build a graphics editor solely based on Java and JavaFX. Below are some features from the project. Not shown (but also functional) is functionality to save/load creations for future work.
+                  </p>
+                  </div>
+              </div>
+          <div class = "row"></div>
+        <div class = "row">
+          <div class = "col-md-8 col-lg-8 col-sm-8 mx-auto">
+              <br>
+              <div id="sketchy-features" class ="carousel slide" data-interval = "12000" data-ride = "carousel">
+                  
+                  <!-- no indicators for now 
+                  <ol class = "carousel-indicators">
+                    <li data-target="#sketchy-features" data-slide-to="0" class = "active carousel-indicator"></li>
+                      <li data-target = "#sketchy-features" data-slide-to="1" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="2" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="3" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="4" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="5" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="6" class = "carousel-indicator"></li>
+                       <li data-target = "#sketchy-features" data-slide-to="7" class = "carousel-indicator"></li>
+                  </ol>
+                -->
+              <div class = "carousel-inner">
+                  <div class = "carousel-item active">
+                    <img class = "d-block carousel-image" src = "assets/translate-trimmed.gif" alt = "GIF of Sketchy translating objects.">
+                      <div class = "carousel-caption d-none d-md-block">
+                      <h5 class = "feature-name">Translate</h5>
+                          <p class = "feature-detail">
+                          Using the "Select Shape" option, user can move shapes around the canvas. Translation is controlled by dragging the mouse across the screen.
+                          </p>
+                      </div>
+                  </div>
+                  
+                  <div class = "carousel-item">
+                    <img class = "d-block carousel-image" src = "assets/raise-lower-trimmed.gif" alt = "GIF of Sketchy raising/lowering layers.">
+                      <div class = "carousel-caption d-none d-md-block">
+                      <h5 class = "feature-name">
+                          Raise/Lower
+                          </h5>
+                          <p class = "feature-detail">
+                          The "Raise" and "Lower" buttons can move shapes up or down in the list of layers. Layers are preserved even after saving/loading.
+                          </p>
+                      </div>
+                  </div>
+                  
+                  <div class = "carousel-item">
+                  <img class = "d-block carousel-image" src = "assets/draw-trimmed.gif" alt = "GIF of Sketchy pen drawing.">
+                      <div class = "carousel-caption d-none d-md-block">
+                        <h5 class = "feature-name">
+                            Draw with Pen
+                          </h5>
+                          <p class = "feature-detail">
+                              Users can select a color and draw on the canvas with a pen controlled by mouse input. Works with undo and redo stacks.
+                          </p>
+                      </div>
+                  </div>
+                  
+                 <div class = "carousel-item">
+                      <img class = "d-block carousel-image" src = "assets/undo-redo%20trimmed.gif" alt = "GIF of Sketchy using undo/redo stack.">
+                          <div class = "carousel-caption d-none d-md-block">
+                            <h5 class = "feature-name">
+                                Undo/Redo
+                              </h5>
+                              <p class = "feature-detail">
+                                  Using two stacks, Sketchy can undo and redo all of its commands, including creating, deleting, rotating, translating, filling, and resizing shapes.
+                              </p>
+                          </div>
+                      </div>
+                  
+                <div class = "carousel-item">
+                      <img class = "d-block carousel-image" src = "assets/resize-trimmed.gif" alt = "GIF of Sketchy resizing objects with Shift-Click.">
+                          <div class = "carousel-caption d-none d-md-block">
+                            <h5 class = "feature-name">
+                                Resize
+                              </h5>
+                              <p class = "feature-detail">
+                                  By using Shift-Click, users can select objects and resize them to be larger or smaller. Users can undo/redo resizing as well.
+                              </p>
+                          </div>
+                      </div>
+                  
+                <div class = "carousel-item">
+                      <img class = "d-block carousel-image" src = "assets/fill-trimmed.gif" alt = "GIF of Sketchy filling shapes.">
+                          <div class = "carousel-caption d-none d-md-block">
+                            <h5 class = "feature-name">
+                                Fill
+                              </h5>
+                              <p class = "feature-detail">
+                                  By selecting shapes and a color with built-in color picker, Sketchy can change the fill of any of its shapes.
+                              </p>
+                          </div>
+                      </div>
+                  
+                    <div class = "carousel-item">
+                      <img class = "d-block carousel-image" src = "assets/rotate-trimmed.gif" alt = "GIF of Sketchy rotating shapes.">
+                          <div class = "carousel-caption d-none d-md-block">
+                            <h5 class = "feature-name">
+                                Rotate
+                              </h5>
+                              <p class = "feature-detail">
+                                  By using Ctrl-Click, users can use Sketchy to rotate ellipses and rectangles by any amount, and can undo/redo these changes.
+                              </p>
+                          </div>
+                      </div>
+                  
+                         <div class = "carousel-item">
+                      <img class = "d-block carousel-image" src = "assets/delete-trimmed.gif" alt = "">
+                          <div class = "carousel-caption d-none d-md-block">
+                            <h5 class = "feature-name">
+                                Delete
+                              </h5>
+                              <p class = "feature-detail">
+                                  By using "Select Shape," Sketchy can delete any rectangle or ellipse previously added to the canvas.
+                              </p>
+                          </div>
+                      </div>
+                  
+                  
+                  
+                  <a class = "carousel-control-prev carousel-button" href = "#sketchy-features" role = "button" data-slide = "prev">
+                      <span class = "carousel-control-prev-icon carousel-control" aria-hidden = "true"></span>
+                      <span class = "sr-only">previous</span>
+                  </a>
+                  <a class = "carousel-control-next" href = "#sketchy-features" role = "button" data-slide = "next">
+                      <span class = "carousel-control-next-icon" aria-hidden = "true"></span>
+                      <span class = "sr-only">next</span>
+                  </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
