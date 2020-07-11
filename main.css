@@ -57,3 +57,52 @@
     text-decoration-color: black;
     color: black;
 }
+
+.card-title {
+       font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-text {
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.built-for {
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card-img-top {
+    width: 286px;
+    height: 180px;
+    object-fit: cover;
+}
+
+#proj-section {
+    text-align: center;
+}
+
+#tetris-image {
+    object-position: 0 -400px;
+}
+
+.btn-primary {
+    background-color:#004EA8;
+}
+
+/* https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap */
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:#004EA8 !important;
+    font-family: 'Lato', sans-serif;
+}
+
+.my-btn {
+background-color:#004EA8;
+
+}
