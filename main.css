@@ -103,6 +103,11 @@ h1 {
     background-color:#004EA8;
 }
 
+.socials {
+    height: 50%;
+    width: 50%;
+}
+
 /* https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap */
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
